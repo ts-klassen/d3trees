@@ -1,0 +1,14 @@
+{application, d3trees,
+ [{description, "An Erlang tree library for data-driven documents."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
