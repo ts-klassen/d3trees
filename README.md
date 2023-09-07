@@ -63,5 +63,7 @@ To run the provided EUnit tests, you can use Rebar3:
 rebar3 eunit
 ```
 
+## Contributing
+
 Please note that there are no specific contributing guidelines, and support/contact information is not provided at the moment. If you have any questions or suggestions, feel free to open an issue on the [GitHub repository](https://github.com/ts-klassen/d3trees/issues).
 

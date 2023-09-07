@@ -61,5 +61,7 @@ An Erlang tree library for data-driven documents.
 rebar3 eunit
 ```
 
-特定の貢献ガイドラインは提供されておらず、サポート/連絡情報は現時点では提供されていません。質問や提案がある場合は、[GitHubリポジトリ](https://github.com/ts-klassen/d3trees/issues)で issue を開いてください。
+## コントリビューション
+
+コントリビューションガイドラインは提供されておらず、サポート/連絡情報も現時点では提供されていません。質問や提案がある場合は、[GitHubリポジトリ](https://github.com/ts-klassen/d3trees/issues)で issue を開いてください。
 
