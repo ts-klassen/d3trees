@@ -51,7 +51,7 @@ An Erlang tree library for data-driven documents.
 
 ## バージョン履歴
 
-- **0.1.0** (初回コミット) - [リリースノート](#)
+- **0.1.0** (初回コミット) - [リリースノート](https://github.com/ts-klassen/d3trees/releases/tag/0.1.0)
 
 ## テスト
 

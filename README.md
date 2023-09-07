@@ -53,7 +53,7 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE) f
 
 ## Version History
 
-- **0.1.0** (Initial Commit) - [Release Notes](#)
+- **0.1.0** (Initial Commit) - [Release Notes](https://github.com/ts-klassen/d3trees/releases/tag/0.1.0)
 
 ## Testing
 
