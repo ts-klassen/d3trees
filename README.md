@@ -1,7 +1,5 @@
 # D3Trees
 
-English | [日本語](./ja-README.md)
-
 An Erlang tree library for data-driven documents.
 
 ## Installation
@@ -40,6 +38,34 @@ Here's a basic example of how to use it:
         }] % end of "FirstNode" children
     }] % end of "RootNode" children
 }
+%% lookup a value in the tree
+3> d3trees:lookup(["FirstNode", "SecondNode"], UpdatedTree).
+{value, "SecondNodeValue"}
+4> d3trees:lookup(["FirstNode"], UpdatedTree).
+none
+%% increment a value in the tree
+5> IntegerTree = d3trees:increment(["x", "y"], 10, Tree).
+#{
+    name => "RootNode"
+  , children => [#{
+        name => "x"
+      , children => [#{
+            name => "y"
+          , value => 10
+        }] % end of "x" children
+    }] % end of "RootNode" children
+}
+6> d3trees:increment(["x", "y"], 2, IntegerTree).
+#{
+    name => "RootNode"
+  , children => [#{
+        name => "x"
+      , children => [#{
+            name => "y"
+          , value => 12
+        }] % end of "x" children
+    }] % end of "RootNode" children
+}
 ```
 
 
@@ -54,6 +80,7 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE) f
 ## Version History
 
 - **0.1.0** (Initial Commit) - [Release Notes](https://github.com/ts-klassen/d3trees/releases/tag/0.1.0)
+- **0.1.1** (Initial Commit) - [Release Notes](https://github.com/ts-klassen/d3trees/releases/tag/0.1.1)
 
 ## Testing
 
